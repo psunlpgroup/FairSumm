@@ -1,5 +1,5 @@
 # FairSumm
-Data and code for paper: Fair Abstractive Summarization of Diverse Perspectives
+Data and code for paper: [Fair Abstractive Summarization of Diverse Perspectives](https://arxiv.org/pdf/2311.07884.pdf).
 
 ## Overview
 In this paper, we systematically investigate fair abstractive summarization that aims to generate a fair and unbiased summary for user-generated data by providing an accurate and comprehensive view of various perspectives from different groups.
@@ -137,7 +137,7 @@ Overall results of all datasets and models. We consider 6 datasets, 4 models, an
 ```
 @article{zhang2023fair,
   title={Fair Abstractive Summarization of Diverse Perspectives},
-  author={Zhang, Yusen and Zhang, Nan and Liu, Yixin and Zhao, Jieyu and Fabbri, Alexander and Liu, Junru and Kamoi, Ryo and Lu, Xiaoxin and Xiong, Caiming and Radev, Dragomir and McKeown, Kathleen and Zhang, Rui},
+  author={Zhang, Yusen and Zhang, Nan and Liu, Yixin and Fabbri, Alexander and Liu, Junru and Kamoi, Ryo and Lu, Xiaoxin and Xiong, Caiming and Zhao, Jieyu and Radev, Dragomir and McKeown, Kathleen and Zhang, Rui},
   journal={arXiv preprint arXiv:2311.07884},
   year={2023}
 }
