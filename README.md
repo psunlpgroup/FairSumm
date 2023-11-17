@@ -16,7 +16,7 @@ We curate a benchmark PerspectiveSumm by unifying and cleaning six existing data
 The table shows dataset characteristics in PerspectiveSumm for fair abstractive summarization. 
 ![img.png](src/dataset.png)
 
-### Useage
+### Usage
 One can directly use the preprocessed datasets in `preporcessing/dataset` with a unified format. If you want to build from scratch, you can download the following datasets from the original Github pages, including [Claritin and US Election](https://github.com/ad93/FairSumm), [Amazon and Yelp](https://github.com/abrazinskas/FewSum), [OxfordDebates](http://tisjune.github.io/research/iq2), and [SupremeCourt](https://confluence.cornell.edu/display/llresearch/Supreme+Court+Dialogs+Corpus). Then, put them into `datasets` folder and run `preprocessing/{dataset_name}.py` to produce the preprocessed datasets.
 
 ### Json Format
