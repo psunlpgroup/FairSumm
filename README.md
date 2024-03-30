@@ -1,5 +1,5 @@
 # FairSumm
-Data and code for paper: [Fair Abstractive Summarization of Diverse Perspectives](https://arxiv.org/pdf/2311.07884.pdf).
+Data and code for NAACL 2024 paper: [Fair Abstractive Summarization of Diverse Perspectives](https://arxiv.org/pdf/2311.07884.pdf).
 
 ## Overview
 In this paper, we systematically investigate fair abstractive summarization that aims to generate a fair and unbiased summary for user-generated data by providing an accurate and comprehensive view of various perspectives from different groups.
@@ -14,7 +14,7 @@ The figure shows an example from the Amazon dataset and a model-generated summar
 ### Statistics
 We curate a benchmark PerspectiveSumm by unifying and cleaning six existing datasets in domains where unfair summarization is a significant issue including healthcare, politics, restaurant, product, law, and policy, which covers social attributes of gender, party, sentiment, rating, and speaker. 
 The table shows dataset characteristics in PerspectiveSumm for fair abstractive summarization. 
-![img.png](src/dataset.png)
+![img.png](src/datasets.png)
 
 ### Usage
 One can directly use the preprocessed datasets in `preporcessing/dataset` with a unified format. If you want to build from scratch, you can download the following datasets from the original Github pages, including [Claritin and US Election](https://github.com/ad93/FairSumm), [Amazon and Yelp](https://github.com/abrazinskas/FewSum), [OxfordDebates](http://tisjune.github.io/research/iq2), and [SupremeCourt](https://confluence.cornell.edu/display/llresearch/Supreme+Court+Dialogs+Corpus). Then, put them into `datasets` folder and run `preprocessing/{dataset_name}.py` to produce the preprocessed datasets.
@@ -105,7 +105,7 @@ Then, run the script on the predicted results.
 <img src="src/exp_result.png" width = "850" alt="sample" align=center />
 </div>
 
-Overall results of all datasets and models. We consider 6 datasets, 4 models, and 2 metrics. BUR and UER are better with a lower score $\downarrow$. **Bold** indicates the best performance, and <ins>underline</ins> indicates the second best. Results show that gpt-4, gpt-turbo-3.5, and text-davinci-003 obtain the best performance on 6, 4, and 2 metrics, respectively. $^\bigstar$ Alpaca produces a number of empty strings which we ignore. Thus, the results of Alpaca are not compatible with other models.
+Overall results of all datasets and models. We consider 6 datasets, 9 models, and 2 metrics. BUR and UER are better with a lower score $\downarrow$. **Bold** indicates the best performance, and <ins>underline</ins> indicates the second best.
 ## Project Structure
 ```dockerignore
 .
@@ -135,10 +135,10 @@ Overall results of all datasets and models. We consider 6 datasets, 4 models, an
 
 ## Citation
 ```
-@article{zhang2023fair,
+@inproceedings{zhang2024fair,
   title={Fair Abstractive Summarization of Diverse Perspectives},
   author={Zhang, Yusen and Zhang, Nan and Liu, Yixin and Fabbri, Alexander and Liu, Junru and Kamoi, Ryo and Lu, Xiaoxin and Xiong, Caiming and Zhao, Jieyu and Radev, Dragomir and McKeown, Kathleen and Zhang, Rui},
-  journal={arXiv preprint arXiv:2311.07884},
+  booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics",
   year={2023}
 }
 ```
