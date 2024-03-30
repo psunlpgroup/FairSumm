@@ -139,6 +139,6 @@ Overall results of all datasets and models. We consider 6 datasets, 9 models, an
   title={Fair Abstractive Summarization of Diverse Perspectives},
   author={Zhang, Yusen and Zhang, Nan and Liu, Yixin and Fabbri, Alexander and Liu, Junru and Kamoi, Ryo and Lu, Xiaoxin and Xiong, Caiming and Zhao, Jieyu and Radev, Dragomir and McKeown, Kathleen and Zhang, Rui},
   booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics",
-  year={2023}
+  year={2024}
 }
 ```
